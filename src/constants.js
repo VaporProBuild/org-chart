@@ -1,0 +1,29 @@
+/* eslint-disable no-unused-vars */
+export const INITIAL_ZOOM = 0.7
+const NODE_HEIGHT = 112
+const NODE_WIDTH = 248
+const NODE_PADDING = 10
+const CHILDREN_MARGIN = 60
+const COMPACT_MARGIN = 70
+const FONT_FAMILY = '"Montserrat", sans-serif'
+
+const IMAGE_HEIGHT = 90
+const IMAGE_WIDTH = 90
+
+export default {
+	INITIAL_ZOOM: INITIAL_ZOOM,
+	NODE_HEIGHT: NODE_HEIGHT,
+	NODE_WIDTH: NODE_WIDTH,
+	NODE_PADDING: NODE_PADDING,
+	CHILDREN_MARGIN: CHILDREN_MARGIN,
+	COMPACT_MARGIN: COMPACT_MARGIN,
+	FONT_FAMILY: FONT_FAMILY,
+
+	IMAGE_HEIGHT: IMAGE_HEIGHT,
+	IMAGE_WIDTH: IMAGE_WIDTH,
+}
+
+export const NODE_TYPE_EMPLOYEE = 'Employee'
+export const NODE_TYPE_DEPARTMENT = 'Department'
+export const NODE_TYPE_WAREHOUSE = 'Warehouse'
+export const NODE_TYPE_MASTER = 'Master'

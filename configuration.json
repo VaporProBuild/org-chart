@@ -1,0 +1,56 @@
+{
+  "1": {
+    "parentId": "",
+    "location": "",
+    "employeeId": "",
+    "department": ""
+  },
+  "2": {
+    "parentId": 1,
+    "location": "Scranton",
+    "employeeId": "",
+    "department": ""
+  },
+  "3": {
+    "parentId": 2,
+    "location": "Scranton",
+    "employeeId": 1,
+    "department": ""
+  },
+  "4": {
+    "parentId": 1,
+    "location": "Scranton",
+    "employeeId": "",
+    "department": "Sales"
+  },
+  "5": {
+    "parentId": 1,
+    "location": "Scranton",
+    "employeeId": "",
+    "department": "Reception"
+  },
+  "6": {
+    "parentId": 3,
+    "location": "Scranton",
+    "employeeId": 2,
+    "department": ""
+  },
+  "7": {
+    "parentId": 3,
+    "location": "Scranton",
+    "employeeId": 3,
+    "department": ""
+  },
+  "8": {
+    "parentId": 5,
+    "location": "Scranton",
+    "employeeId": 4,
+    "department": ""
+  },
+  "9": {
+    "parentId": 7,
+    "location": "Scranton",
+    "employeeId": 5,
+    "department": ""
+  }
+}

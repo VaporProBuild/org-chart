@@ -1,0 +1,146 @@
+{
+  "location":
+  {
+    "0": {
+      "name": "Scranton",
+      "type": "location",
+      "longitude": -75.6624,
+      "latitude": 41.408969
+    },
+    "1": {
+      "name": "Akron",
+      "type": "location",
+      "longitude": -81.519005,
+      "latitude": 41.081445
+    },
+    "2": {
+      "name": "Albany",
+      "type": "location",
+      "longitude": -73.756233,
+      "latitude": 42.652579
+    },
+    "3": {
+      "name": "Nashua",
+      "type": "location",
+      "longitude": -71.467566,
+      "latitude": 42.765366
+    },
+    "4": {
+      "name": "New York",
+      "type": "location",
+      "longitude": -73.986613,
+      "latitude": 40.73061
+    },
+    "5": {
+      "name": "Rochester",
+      "type": "location",
+      "longitude": -77.615214,
+      "latitude": 43.16103
+    },
+    "6": {
+      "name": "Syracuse",
+      "type": "location",
+      "longitude": -76.147423,
+      "latitude": 43.048122
+    },
+    "7": {
+      "name": "Utica",
+      "type": "location",
+      "longitude": -75.232664,
+      "latitude": 43.100903
+    }
+  },
+  "department":
+  {
+    "0": {
+      "name": "Human Resources",
+      "description": "Responsible for employee relations, awkward seminars, and handling office conflicts."
+    },
+    "1": {
+      "name": "Accounting",
+      "description": "Keeps the financial records in check, with occasional excursions into karaoke."
+    },
+    "2": {
+      "name": "Sales",
+      "description": "The relentless sales team led by the one and only Michael Scott."
+    },
+    "3": {
+      "name": "Warehouse",
+      "description": "Handles the heavy lifting and often engages in shenanigans with the office staff."
+    },
+    "4": {
+      "name": "Reception",
+      "description": "The first point of contact at the office"
+    },
+    "5": {
+      "name": "PPC",
+      "description": "(Party Planning Committee) Unofficial department responsible for organizing quirky office parties."
+    },
+    "6": {
+      "name": "Quality Assurance",
+      "description": "Ensures that the paper meets the highest standards, even though nobody really knows what they do."
+    }
+  },
+  "employee": {
+    "111": {
+      "parentId": "",
+      "firstName": "Michael",
+      "lastName": "Scott",
+      "position": "Regional Manager",
+      "email": "",
+      "department": "Sales",
+      "additionalInfo": "Michael Scott is the regional manager of Dunder Mifflin Scranton. He is a very enthusiastic boss, and sometimes gets too excited about things. He is known for his awkwardness and lack of social skills.",
+      "phone": "570-555-5555",
+      "extension": "x100",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png"
+    },
+    "112": {
+      "parentId": "111",
+      "firstName": "Dwight",
+      "lastName": "Schrute",
+      "position": "Assistant to the Regional Manager",
+      "email": "",
+      "department": "Sales",
+      "additionalInfo": "Dwight Schrute is the assistant to the regional manager of Dunder Mifflin Scranton. He is a very loyal employee, and prides himself on his work ethic. He is known for his lack of social skills and common sense.",
+      "phone": "570-555-5555",
+      "extension": "x101",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/cd/Dwight_Schrute.jpg"
+    },
+    "113": {
+      "parentId": "111",
+      "firstName": "Jim",
+      "lastName": "Halpert",
+      "position": "Sales Representative",
+      "email": "",
+      "department": "Sales",
+      "additionalInfo": "Jim Halpert is a sales representative at Dunder Mifflin Scranton. He is known for his pranks on Dwight, and his relationship with Pam.",
+      "phone": "570-555-5555",
+      "extension": "x102",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Jim-halpert.jpg"
+    },
+    "114": {
+      "parentId": "111",
+      "firstName": "Pam",
+      "lastName": "Beesly",
+      "position": "Receptionist",
+      "email": "",
+      "department": "Reception",
+      "additionalInfo": "Pam Beesly is the receptionist at Dunder Mifflin Scranton. She is known for her relationship with Jim, and her artistic talents.",
+      "phone": "570-555-5555",
+      "extension": "x103",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/Pam_Beesley.jpg"
+    },
+    "115": {
+      "parentId": "111",
+      "firstName": "Ryan",
+      "lastName": "Howard",
+      "position": "Temp",
+      "email": "",
+      "department": "Reception",
+      "additionalInfo": "Ryan Howard is a temp at Dunder Mifflin Scranton. He is known for his relationship with Kelly, and his business school education.",
+      "phone": "570-555-5555",
+      "extension": "x104",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/60/Ryan_Howard_%28The_Office%29.jpg"
+    }
+  }
+}
