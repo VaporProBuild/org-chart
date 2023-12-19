@@ -156,7 +156,7 @@
             <span
               v-if="editEmp.email && editEmp.email.includes('@') && attemptedNext"
               class="error-text"
-            >Must only use @coldstorage.com Email</span>
+            >Must only use @dundermifflin.com Email</span>
           </p>
           <div
             style="display: flex;
@@ -170,7 +170,7 @@
               type="text"
             />
             <p style="margin-left: 0.5rem; font-size: 1em;">
-              @coldstorage.com
+              @dundermifflin.com
             </p>
           </div>
         </div>
@@ -280,7 +280,7 @@
             v-if="editEmp.email" 
             class="review-item-value"
           >
-            {{ editEmp.email }}@coldstorage.com
+            {{ editEmp.email }}@dundermifflin.com
           </p>
         </div>
         <div class="review-item">

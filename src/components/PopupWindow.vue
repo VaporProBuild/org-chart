@@ -74,7 +74,7 @@
           Email:
         </p>
         <p class="card-item-value">
-          {{ employee.email }}@coldstorage.com
+          {{ employee.email }}@dundermifflin.com
         </p>
       </div>
       <div
