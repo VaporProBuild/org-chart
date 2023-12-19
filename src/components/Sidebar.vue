@@ -58,7 +58,8 @@ const ToggleDepartment = () => {
         </button>
       </div>
       <h3>Menu</h3>
-      <div class="menu">
+      <!-- Updates coming soon! -->
+      <!-- <div class="menu">
         <button
           class="button"
           @click="updateMaster()"
@@ -117,7 +118,7 @@ const ToggleDepartment = () => {
             <span class="text">{{ department }}</span>
           </button>
         </div>
-      </div>
+      </div> -->
 
       <div class="menu">
         <button
@@ -215,19 +216,6 @@ const ToggleDepartment = () => {
           <span class="material-icons">logout</span>
           <span class="text">Logout</span>
         </button>
-      </div>
-      <div
-        v-else
-        class="menu"
-        @click="() => {closeAll()}"
-      >
-        <router-link
-          to="/"
-          class="button"
-        >
-          <span class="material-icons">login</span>
-          <span class="text">Login</span>
-        </router-link>
       </div>
     </aside>
   </div>
